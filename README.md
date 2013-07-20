@@ -1,6 +1,6 @@
-Busca Saúde
-Encontre o serviço de saúde mais próximo de você
+Busca Saúde - Encontre o serviço de saúde mais próximo de você
 ==========
+
 
 Aplicativo que concorre ao Hackathon da Prefeitura do Recife e Firefox OS
 
@@ -19,15 +19,12 @@ Link da apresentação no youtube: Em breve
 Criadores:
 
 Yelken Heckman
-
 br.linkedin.com/in/yelken
-
 yelkezin@gmail.com
 
 Rodrigo Portillo
-
 br.linkedin.com/in/rodrigoportillo
-
 portillo.designer@gmail.com
+
 
 Mais informações nos contactem por e-mail.
