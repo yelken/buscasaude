@@ -1,0 +1,421 @@
+/**Fonts**/
+@font-face {
+    font-family: 'buscaSaudeSymbol';
+    src: url('../fonts/busca-saude-webfont.eot');
+    src: url('../fonts/busca-saude-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/busca-saude-webfont.woff') format('woff'),
+         url('../fonts/busca-saude-webfont.ttf') format('truetype'),
+         url('../fonts/busca-saude-webfont.svg#buscasauderegularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**Globals**/
+body{
+	color: #4b4949;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	background-color: #7f7f7f;
+	background-image: url("../assets/grain.png");
+}
+
+span.icone{
+	font-family: 'buscaSaudeSymbol';
+	font-size: 2.3em;
+	vertical-align: middle;
+}
+
+a img, img a{
+	border: none;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield !important;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}
+
+/**Cabeçalho**/
+.cabecalho_pagina{
+	overflow: hidden;
+	background: #365e7f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #365e7f 0%, #27465b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#365e7f), color-stop(100%,#27465b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #365e7f 0%,#27465b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #365e7f 0%,#27465b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #365e7f 0%,#27465b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #365e7f 0%,#27465b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#365e7f', endColorstr='#27465b',GradientType=0 ); /* IE6-9 */
+
+	border-bottom: 0.2em solid #333;
+	box-shadow: 0 0 1em #444;
+	-webkit-box-shadow: 0 0 1em #444;
+}
+
+.cabecalho_pagina .logo{
+	float: left;
+	font-size: 3em;
+	font-family: 'buscaSaudeSymbol';
+	padding: 0.2em;
+	color: white;
+	background: #4ee0ad; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4ee0ad 0%, #34b59b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ee0ad), color-stop(100%,#34b59b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4ee0ad 0%,#34b59b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ee0ad', endColorstr='#34b59b',GradientType=0 ); /* IE6-9 */
+}
+
+.cabecalho_pagina .titulo{
+	float: left;
+	overflow: hidden;
+	margin-top:7px;
+	display: inline-block;
+	width: 70%;
+}
+
+.cabecalho_pagina h1{
+	color:white;
+	font-size: 1.5em;
+	text-align: left;
+	font-style: normal;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+	padding-top: 0.2em;
+	padding-left: 7px;
+	display: inline-block;
+}
+
+.cabecalho_pagina h2{
+	text-align: left;
+	font-size: 0.7em;
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+	color:rgba(255,255,255,0.8);
+	padding-left: 7px;
+	display: inline-block;
+}
+
+/**Busca**/
+.wrap .area_busca{
+	background-color: #e6ecec;
+}
+
+.wrap .area_busca .form_busca{
+	border-bottom: 0.2em solid #ccc;
+	box-shadow: 0 0.2em 0.2em rgba(0,0,0,0.2);
+
+}
+
+.wrap .area_busca .form_busca input.busca{
+	font-size: 1.2em;
+	width: 95%;
+	padding: 0.5em 2.5%;
+	border:none;
+	}
+
+.wrap .area_busca .form_busca select.tipo{
+	font-size: 1em;
+	width: 100%;
+	padding: 0.3em 0.9em;
+}
+
+.wrap .area_busca .form_busca div{
+	padding-bottom: 0.5em;
+}
+
+.wrap .area_busca .form_busca button.procurar{
+	font-size: 1.3em;
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 0.3em;
+	display: block;
+	padding: 0.3em 0.5em;
+	color: white;
+	border-radius: 0.4em;
+	border: none;
+	box-shadow: 0 0 0.2em rgba(0,0,0,0.1);
+	moz-box-shadow: 0 0 0.2em rgba(0,0,0,0.1);
+	text-shadow: 0.1em 0.1em 0.1em rgba(255,255,255,0.1), -0.1em -0.1em 0.1em rgba(0,0,0,0.1);
+
+	background: #4cb0ce; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4cb0ce 0%, #058fa8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4cb0ce), color-stop(100%,#058fa8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4cb0ce 0%,#058fa8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4cb0ce 0%,#058fa8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4cb0ce 0%,#058fa8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4cb0ce 0%,#058fa8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4cb0ce', endColorstr='#058fa8',GradientType=0 ); /* IE6-9 */
+	
+	border-bottom: 0.2em solid #2b7179;
+}
+
+/**MAPA*/
+.mapa_principal{
+	width:100%;
+	height:10em;	
+}
+
+/**Resposta Hospitais**/
+.wrap .area_resultados {
+	
+}
+.wrap .area_resultados .hospital{
+	opacity: 0;		
+	box-shadow: 0 0 1em rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 1em rgba(0,0,0,0.1);	
+	-moz-transition: opacity 0.3s ease;
+	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease;
+	-o-transition: opacity 0.3s ease;
+	-ms-transition: opacity 0.3s ease;
+	border-bottom: 2px solid black;
+	
+	background: #365e7f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #365e7f 0%, #27465b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#365e7f), color-stop(100%,#27465b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #365e7f 0%,#27465b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #365e7f 0%,#27465b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #365e7f 0%,#27465b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #365e7f 0%,#27465b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#365e7f', endColorstr='#27465b',GradientType=0 ); /* IE6-9 */
+
+}
+
+.wrap .area_resultados .hospital_alt{
+	background: #1c748e; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1c748e 0%, #2e5768 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c748e), color-stop(100%,#2e5768)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1c748e 0%,#2e5768 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1c748e 0%,#2e5768 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1c748e 0%,#2e5768 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1c748e 0%,#2e5768 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c748e', endColorstr='#2e5768',GradientType=0 ); /* IE6-9 */
+}
+
+.wrap .area_resultados .hospital_0{
+	background: #4ee0ad; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4ee0ad 0%, #34b59b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ee0ad), color-stop(100%,#34b59b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #4ee0ad 0%,#34b59b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ee0ad', endColorstr='#34b59b',GradientType=0 ); /* IE6-9 */
+}
+
+.wrap .area_resultados .hospital .mais_proximo{
+	padding: 0.4em;
+	background-color: #21bea7;
+	color: #00ffdd;
+	text-align: center;
+	font-size: small;
+}
+
+.wrap .area_resultados .hospital h1{
+	margin: 0;
+	padding: 0.4em 0.4em;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	font-size: 1.1em;
+	color:white;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .endereco {
+	overflow: hidden;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .endereco address{
+	font-size: 0.8em;
+	font-style: normal;
+	color:rgba(255,255,255,0.8);
+	margin-bottom: 0.1em;
+	padding: 0.2em 0.4em;
+}
+.wrap .area_resultados .hospital .area_dados_hospital .endereco .fone{
+	color: yellow;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	padding: 0.4em;
+	float: left;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .estrelas{
+	font-family: 'buscaSaudeSymbol';
+	color:rgba(0,0,0,0.2);
+	font-size: 1.5em;
+	float: right;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .estrelas a{
+	color:rgba(0,0,0,0.2);
+	text-decoration: none;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .estrelas .amarela{
+	color:yellow;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .exibir{
+	overflow: hidden;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .exibir .exibir_mapa{
+	background-color: rgba(0,0,0,0.25);
+	border: none;
+	padding: 0.7em;
+	color:white;
+	letter-spacing: 0.1em;
+	cursor: pointer;
+	font-size: 0.8em;
+	display: block;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .especialidades {
+	margin-top: 0.2em;
+	padding: 0.3em;
+	box-shadow: inset 0 0 0.8em rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.2);
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .especialidades h2{
+	padding: 0;
+	margin: 0;
+	color:#333;
+	text-shadow: 0.1em 0.1em 0.1em rgba(255,255,255,0.1), -0.1em -0.1em 0.1em rgba(0,0,0,0.1);
+	font-size: 0.7em;
+	overflow: hidden;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .especialidades ul{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.wrap .area_resultados .hospital .area_dados_hospital .especialidades ul li{
+	display: inline-block;
+	color:white;
+	font-size: 0.8em;
+	padding: 0.2em 0.3em;
+	background-color: rgba(255,255,255,0.05);
+	cursor: pointer;
+}
+
+
+
+/** Modelo Web**/
+@media screen and (min-width: 800px) {
+	html{
+		height: 100%;
+	}
+
+	body{
+		height: 100%;
+	}
+	
+	.cabecalho_pagina{
+		position: absolute;
+		z-index: 100;
+		width: 100%;
+	}
+	
+	.cabecalho_pagina h1{
+		color:white;
+		font-size: 36px !important;
+		text-align: left;
+		font-style: normal;
+		font-weight: 100;
+		margin: 0;
+		padding: 0;
+		padding-top: 0.2em;
+		padding-left: 10px;
+		display: inline-block;
+	}
+	
+	.mapa_principal{
+		position: absolute;
+		z-index: 10;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.form_busca{
+		position: absolute;
+		z-index: 11;
+		left: 10px;
+		top:80px;
+		border-radius: 10px;
+		box-shadow: 0 0 20px rgba(0,0,0,0.2) !important;
+		-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2) !important;
+		-moz-box-shadow: 0 0 20px rgba(0,0,0,0.2) !important;
+		
+		padding: 15px;
+		
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+	}
+	
+	.wrap .area_busca .form_busca .busca{
+		border: 1px solid #eee !important;
+		border-radius: 7px !important;
+		box-shadow: inset 0 0 15px rgba(0,0,0,0.05) !important;
+	}
+	
+	.wrap .area_busca .form_busca button.procurar{
+		width: 300px !important;
+		border: 1px solid #2b7179;
+		cursor: pointer;
+		box-shadow: 0 0 5px rgba(0,0,0,0.08);
+		
+
+	}
+	
+	.wrap .area_busca .form_busca button.procurar:hover{
+		background: #4ee0ad; /* Old browsers */
+		background: -moz-linear-gradient(top,  #4ee0ad 0%, #34b59b 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4ee0ad), color-stop(100%,#34b59b)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #4ee0ad 0%,#34b59b 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #4ee0ad 0%,#34b59b 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ee0ad', endColorstr='#34b59b',GradientType=0 ); /* IE6-9 */
+		
+	}
+	
+	.area_resultados{
+		position: absolute;
+		right: 10px;
+		top:0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.4) !important;
+		padding: 10px;
+		z-index: 12;
+		width: 350px;
+		padding-top: 80px;
+		padding-right: 20px;
+		overflow: auto;
+	}
+	
+}
+    	
