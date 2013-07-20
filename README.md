@@ -19,11 +19,11 @@ Link da apresentação no youtube: Em breve
 Criadores:
 
 Yelken Heckman
-br.linkedin.com/in/yelken
+http://br.linkedin.com/in/yelken
 yelkezin@gmail.com
 
 Rodrigo Portillo
-br.linkedin.com/in/rodrigoportillo
+http://br.linkedin.com/in/rodrigoportillo
 portillo.designer@gmail.com
 
 
