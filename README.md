@@ -14,7 +14,7 @@ Servidor: Linux
 
 O aplicativo roda web então é multiplataforma tendo como principal ponto positivo o layout responsivo que permite a flexibilidade de aparelhos celulares e computadores
 
-Link da apresentação no youtube: Em breve
+Link da apresentação no youtube: http://www.youtube.com/watch?v=zUsIccLJ4wI
 
 Criadores:
 
