@@ -1,11 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Busca Saúde</title>
+		<title>Health Seeker</title>
 		<!-- meta -->
 		<meta charset="UTF-8" />
-		<meta name="author" content="Rodrigo Portillo" />
+		<meta name="author" content="Vitoria Vasconcelos" />
+		<meta name="author" content="André Rodrigues Gomes Costa" />
+		<meta name="author" content="Paulo de Souza Barreto Valdevino Calumbi" />
 		<meta name="author" content="Yelken Hackman" />
+		<meta name="author" content="Paolo Diego de Souza" />
 		<meta name="description" content="Sistema de Busca de Instituições Públicas"/>
 		
 
@@ -28,7 +31,7 @@
 		<header id="headPrincipal" class="cabecalho_pagina">
 			<div class="logo">C</div>
 			<div class="titulo">
-				<h1>Busca Saúde</h1>
+				<h1>Health Seeker</h1>
 				<h2>Encontre o Serviço de Saúde Mais Próximo</h2>
 			</div>
 		</header>
@@ -43,8 +46,8 @@
 					<div>
 						<select id="setTipo" class="tipo">
 							<option value="todos" selected="true">Todos</option>
-							<option value="hospital">Hospitais</option>
-							<option value="upa">UPA - Unidade de Pronto Atendimento</option>
+							<option value="hospital">Públicos</option>
+							<option value="upa">Privados</option>
 							<option value="policlinica">Policlínicas</option>
 						</select>
 					</div>

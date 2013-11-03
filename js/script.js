@@ -1,10 +1,3 @@
-/**
-Script de Inserção e configuração dos hospitais
-
-@author Rodrigo Portillo
-@date 2013-07-18
-*/
-
 //Variáveis Públicas
 var actCoords = [];
 var directionDisplay;
@@ -200,7 +193,7 @@ function getHospitais(){
 	
 	//var arrDuino =
 	$.ajax({
-		url : "/hospitais/hospitais.php",
+		url : "/hospitais/hospitais.json",
 		cache : false,
 		type : "get",
 		dataType : "json",
