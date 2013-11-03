@@ -48,11 +48,6 @@
 							<option value="policlinica">Policlínicas</option>
 						</select>
 					</div>
-					<div>
-						<select id="setEspec" class="tipo espec">
-							<option value="todos" selected="true">Todas</option>
-						</select>
-					</div>
 					<button id="btnSubmit" class="procurar">Buscar <span class="icone">a</span></button>
 				</div>
 			</div>
